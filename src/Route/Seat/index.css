@@ -1,0 +1,26 @@
+.seat .tOperator {
+  padding: 0 20px; }
+
+.seat__tip {
+  height: 24px;
+  padding: 10px 0;
+  background: url(../../icon/seats.svg) 50%/auto 24px no-repeat; }
+
+.seat__graph {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 500px; }
+
+.seat__list {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch; }
+  .seat__list::-webkit-scrollbar {
+    display: none; }
+
+.seat__screen {
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  color: #000;
+  text-align: center;
+  background: url(../../icon/screen.svg) 50%/auto 28px no-repeat; }

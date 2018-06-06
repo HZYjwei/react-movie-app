@@ -1,0 +1,54 @@
+.tTag {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 4px; }
+  .tTag:nth-child(n+2) {
+    margin-left: 6px; }
+  .tTag__red {
+    color: #ef6a79;
+    border: 1px solid #ef6a79; }
+  .tTag__blue {
+    color: #58bae8;
+    border: 1px solid #58bae8; }
+
+.tBtn {
+  width: 50px;
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  border-radius: 14px;
+  text-align: center;
+  background-color: #ef6d83;
+  font-size: 12px;
+  border: none; }
+
+.tOperator {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  line-height: 40px; }
+  .tOperator__icon {
+    width: 40px;
+    height: 40px; }
+  .tOperator__icon--setting {
+    background: url(./icon/setting.svg) 0 50%/20px 20px no-repeat; }
+  .tOperator__icon--message {
+    background: url(./icon/message.svg) 100% 50%/20px 20px no-repeat; }
+  .tOperator__icon--back {
+    background: url(./icon/back.svg) 0 50%/20px 20px no-repeat; }
+  .tOperator__icon--share {
+    background: url(./icon/share.svg) 100% 50%/20px 20px no-repeat; }
+  .tOperator__icon--blackBack {
+    background: url(./icon/back-black.svg) 0 50%/20px 20px no-repeat; }
+  .tOperator__icon--blackShare {
+    background: url(./icon/share-black.svg) 100% 50%/20px 20px no-repeat; }
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }

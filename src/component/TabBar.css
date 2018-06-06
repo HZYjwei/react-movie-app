@@ -1,0 +1,33 @@
+a {
+  text-decoration: none; }
+
+.tabBar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  background-color: #fff; }
+  .tabBar__btn {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .tabBar__btn--active .tabBar__text {
+    color: #ff4c64; }
+  .tabBar__btn--active .tabBar__icon--movie {
+    background: url(../icon/movie-solid.png) 50%/contain no-repeat; }
+  .tabBar__btn--active .tabBar__icon--user {
+    background: url(../icon/user-solid.png) 50%/contain no-repeat; }
+  .tabBar__icon {
+    display: block;
+    width: 22px;
+    height: 22px; }
+    .tabBar__icon--movie {
+      background: url(../icon/movie.png) 50%/contain no-repeat; }
+    .tabBar__icon--user {
+      background: url(../icon/user.png) 50%/contain no-repeat; }
+  .tabBar__text {
+    font-size: 10px;
+    color: #666; }

@@ -1,0 +1,30 @@
+.scoreDistribute {
+  display: flex; }
+  .scoreDistribute .score {
+    width: 80px;
+    text-align: center; }
+    .scoreDistribute .score__value {
+      font-size: 34px;
+      color: #000;
+      font-weight: 500; }
+    .scoreDistribute .score__desc {
+      color: #777;
+      font-size: 12px; }
+  .scoreDistribute .distribute {
+    flex: 1; }
+    .scoreDistribute .distribute__star {
+      display: flex;
+      height: 8px; }
+      .scoreDistribute .distribute__star:nth-child(n+2) {
+        margin-top: 2px; }
+    .scoreDistribute .distribute__btm {
+      flex: 1;
+      align-self: center;
+      margin-left: 6px;
+      height: 6px;
+      background-color: #ccc;
+      border-radius: 2px;
+      overflow: hidden; }
+    .scoreDistribute .distribute__top {
+      height: 100%;
+      background-color: #000; }

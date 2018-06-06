@@ -1,0 +1,49 @@
+@import '../../../__util';
+
+.mArtist{
+
+  &__list{
+    display: flex;
+    overflow-x: scroll;
+    margin-right: -20px;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar{
+      display: none;
+    }
+
+    li{
+      &:nth-child(n+2){
+        margin-left: 8px;
+      }
+      &:last-child{
+        padding-right: 20px;
+
+      }
+    }
+  }
+  .artistInfo{
+    display: block;
+    width: 80px;
+    text-align: center;
+
+
+    &__image{
+      width: 80px;
+      height: 120px;
+      background: 50% / cover no-repeat;
+    }
+
+    &__name{
+      font-size: 14px;
+      color: $black;
+      margin: 0;
+    }
+
+    &__job{
+      font-size: 12px;
+      color: $gray;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@import '../../../__util';
+
+.commentList{
+
+  li{
+    margin-top: 24px;
+  }
+
+  .commentItem{
+    .commentUser{
+      display: flex;
+
+      &__avator{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background: center / cover no-repeat;
+      }
+
+      &__detail{
+        margin-left: 10px;
+
+        @include column-center;
+      }
+
+      &__name{
+        font-size: 16px;
+        font-weight: bold;
+        color: $black;
+        margin-bottom: 6px;
+      }
+
+      &__value{
+        color: #f2a95d;
+        font-weight: bold;
+        margin-left: 4px;
+      }
+    }
+
+    &__detail{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color:$gray;
+      margin-top: 6px;
+    }
+
+    &__time{
+      flex: 1;
+    }
+
+    &__zan{
+      width: 120px;
+      text-align: right;
+    }
+    &__zan i{
+      display: inline-block;
+      height: 14px;
+      width: 14px;
+      background: url(../../../icon/zan-o.svg) center / contain no-repeat;
+    }
+
+    &__zan--active i{
+      background: url(../../../icon/zan-solid.svg) center / contain no-repeat;
+    }
+  }
+
+}

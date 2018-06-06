@@ -1,0 +1,35 @@
+.baseInfo{
+  display: flex;
+
+  &__detail{
+    flex:1;
+  }
+
+  &__poster{
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+  }
+
+  &__name{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+  }
+
+  &__subTitle,
+  &__other{
+    color:rgba(#fff, .8);
+    font-size: 14px;
+  }
+
+  &__subTitle{
+    margin-bottom: 14px;
+  }
+
+  &__other{
+    margin-top: 8px;
+  }
+}
